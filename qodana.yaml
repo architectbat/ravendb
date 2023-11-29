@@ -1,0 +1,12 @@
+version: "1.0"
+
+profile:
+  name: qodana.recommended
+
+failThreshold: 1
+
+bootstrap: |
+  sh ./build.sh
+
+dotnet:
+    solution: RavenDB.sln
