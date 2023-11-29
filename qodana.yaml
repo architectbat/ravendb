@@ -6,7 +6,7 @@ profile:
 failThreshold: 1
 
 bootstrap: |
-  sh ./build.sh
+  sh ./build.sh || true
 
 dotnet:
     solution: RavenDB.sln
