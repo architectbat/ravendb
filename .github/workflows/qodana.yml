@@ -19,6 +19,6 @@ jobs:
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with:
-          args: --linter,jetbrains/qodana-dotnet:2023.3-eap
+          args: --linter,jetbrains/qodana-dotnet:2023.3-eap,--run-promo,false
           pr-mode: false
           upload-result: true
